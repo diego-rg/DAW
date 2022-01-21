@@ -45,6 +45,7 @@ public class CCuenta {
 	}
 
 	/**
+	 * *Método para comprobar que el cliente ingresa una cantidad positiva y el saldo después del ingreso
 	 * @param cantidad Comprueba que la cantidad a ingresar es positiva, ya que no tendría sentido un ingreso negativo
 	 * @throws Exception Aviso para que el cliente vea que ha intentado ingresar algo negativo
 	 */
@@ -55,6 +56,7 @@ public class CCuenta {
 	}
 
 	/**
+	 * *Método para comprobar si el cliente puede retirar la cantidad que desea y su saldo después en caso afirmativo
 	 * @param cantidad Comprueba que la cantidad a retirar es positiva, y que su valo no supera el límite del saldo que tiene el cliente, ya que no puede "deber" dinero
 	 * @throws Exception Aviso para que el cliente vea que ha intentado retirar una cantidad negativa o más dinero del que dispone
 	 */

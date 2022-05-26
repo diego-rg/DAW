@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE ciclo>
+<ciclo nombre="DAM">
+	<modulo nombre="Lenguaje de marcas" horas="4" caracter="obligatorio" fechaInicio="15 de septiembre de 2010" fechaFin="30 de junio de 2011">
+		<alumnos>
+			<alumno>
+				<nombre>Ana Fernández Gutiérrez</nombre>
+				<nif>16965696L</nif>
+				<telefono>789654321</telefono>
+				<email>ana.fdezgtrrez@hotmail.com</email>
+				<direccion>calle El Percebe 13 de Santander</direccion>
+				<cp>39302</cp>
+				<nota></nota>
+				<faltas></faltas>
+			</alumno>
+			<alumno>
+				<nombre>Pepito Grillo</nombre>
+				<nif>98765432H</nif>
+				<telefono>656566555 </telefono>
+				<email>yhyh@yahoo.com</email>
+				<direccion>Avd. El Pez, 5 de Suances</direccion>
+				<cp>39401</cp>
+				<nota>apto</nota>
+				<faltas>0</faltas>
+			</alumno>
+		</alumnos>
+	</modulo>
+</ciclo>

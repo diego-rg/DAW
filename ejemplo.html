@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+    		<meta charset="UTF-8">
+    		<title>ejemplo</title>
+			<link rel="stylesheet" href="estilos.css">
+	</head>
+	<body>
+			<main>
+					<h1>Página ejemplo</h1>
+					<section>
+							<h2>Sobre mi</h2>
+							<img src="https://static.educalingo.com/img/en/800/hippopotamus.jpg" width="300px" alt='yo'>
+							
+							<dl>
+								<dt>Hipopótamo</dt>
+								<dd>Género de mamíferos artiodáctilos de la familia Hippopotamidae que solo cuenta con una especie actual, el hipopótamo común</dd>
+							</dl>
+							
+							<table>
+								<caption>Géneros</caption>
+								<thead>
+									<tr>
+										<th>Nombre</th>
+										<th>Hábitat</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Hippopotamus amphibius</td>
+										<td>África</td>
+									</tr>
+									<tr>
+										<td>Hippopotamus antiquus</td>
+										<td>Europa</td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<td>En construcción...</td>
+									</td>
+								 </tfoot>
+							</table>
+							
+							<h3>Alimentación</h3>
+							<ul>  
+									<li>Algo</li>
+									<li>Algo más</li>
+							</ul>
+							<br>
+							
+							<a href="https://es.wikipedia.org/wiki/Hippopotamus">Infórmate</a>
+					</section>
+					<section>
+							<h2>Formulario</h2>
+								<form name="reservaHippo" action="/reservas.php" method="post">
+											<label for="nombre">Nombre:</label>
+											<input type="text" id="nombre" name="nombre" placeholder="Hippo" required>
+											
+											<label for="email">Email:</label>
+											<input type="email" id="email" name="email" placeholder="hippo@email.com" required>
+											
+											<br>
+											<br>
+											
+											<label for="noches">Número de hippos:</label>
+											<input type="number" min="99" max="999" id="noches" name="noches" placeholder="998" required>
+											
+											<label for="mesEntrada">Mes de recepción:</label>
+											<select id="mesEntrada" name="mesEntrada" required>
+												<option value="Junio">Junio</option>
+												<option value="Julio">Julio</option>
+												<option value="Agosto">Agosto</option>
+											</select> 
+											
+											<br>
+											<br>
+											
+											<label for="habitacion">Tipo de hippo:</label>
+											<input type="radio" id="simple" name="habitacion" value="Simple">
+											<label for="simple">Grande</label>
+											<input type="radio" id="doble" name="habitacion" value="Doble">
+											<label for="doble">Muy Grande</label>
+											
+											<br>
+											<br>
+											
+											<label for="extras">Extras:</label>
+											<input type="checkbox" id="desayuno" name="desayuno" value="Desayuno">
+											<label for="desayuno"> Hiena</label>
+											<input type="checkbox" id="comida" name="comida" value="Comida">
+											<label for="comida"> Cebra</label>
+											
+											<br>
+											<br>
+											
+											<label for="comentarios">Comentarios:</label>
+											<br>
+											<textarea id="comentarios" name="comentarios" placeholder="Escriba aquí..." rows="4" cols="50"></textarea>
+											
+											<br>
+											<br>
+											
+											<label for="fecha">Fecha:</label>
+											<input type="datetime-local" name="fecha" id="fecha">
+											
+											<br>
+											<br>
+											
+											<button type="submit" value="Submit">Enviar</button>
+											<button type="reset" value="Reset">Borrar</button>
+								</form>
+					</section>
+			</main>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+html {
+	background-color: lightgrey;
+}
+
+img{
+	position: absolute;
+	top: 300px;
+	right: 500px;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: grey;
+	font-size: 2rem;
+}
+
+table {
+	border: 1px solid white;
+	text-align: center;
+}
+
+button {
+	border: 1px solid black;
+	background-color: lightgreen;
+	padding: 5px;
+	margin: 5px;
+}
+
+button:hover {
+	transform: scale(1.1);
+	background-color: green;
+}

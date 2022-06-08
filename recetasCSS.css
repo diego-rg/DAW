@@ -1,0 +1,53 @@
+body {
+	background-color: lightblue;
+	font-size: 1.1rem;
+}
+
+main {
+	padding: 0 10rem;
+}
+
+h1{
+	font-family: courier;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+footer {
+	margin-top: 100px;
+}
+
+footer p {
+	text-align: center;
+}
+
+button {
+	background-color: red;
+	padding: 5px;
+}
+
+button:hover {
+	color: white;
+	background-color: red;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+table {
+	border: 1px solid black;
+}
+
+table * {
+	border: 1px solid blue;
+	text-align: center;
+	margin-top: 50px;
+}
+
+img {
+	border: 5px solid green;
+	margin: 2%;
+}

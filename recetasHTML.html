@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Recetas</title>
+	<link rel="stylesheet" href="recetasCSS.css">
+</head>
+<body>
+	<main>
+		<h1>Mis Recetas<h1/>
+		<h2>Sopa de cebolla</h2>
+		<a href="https://es.wikipedia.org/wiki/Sopa_de_cebolla">Saber más</a>
+		
+		<dl>
+           <dt>Sopa de cebolla</dt>
+           <dd>Es una sopa cuyo principal ingrediente es la cebolla caramelizada.</dd>
+		</dl>
+		
+		<img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Zwiebelsuppe-RZ.jpg" width="500px" alt='foto de la sopa de cebolla'>
+		
+		<form name="receta" action="/recetasdb.php" method="post">
+			<label for="nombreCreador">Nombre creador:</label>
+            <input type="text" id="nombreCreador" name="nombreCreador" placeholder="Nombre" required>
+
+			<label for="comensales">Comensales:</label>
+            <input type="number" min="1" max="9" id="comensales" name="comensales" placeholder="2" required>
+
+			<label for="tipoComida">Tipo de comida:</label>
+			<select id="tipoComida" name="tipoComida" required>
+                <option value="Vegana">Vegana</option>
+                <option value="Otros">Otros</option>
+            </select> 
+			<br>
+			<br>
+			
+            <input type="checkbox" id="desayuno" name="desayuno" value="Desayuno">
+            <label for="desayuno"> Desayuno</label>
+            <input type="checkbox" id="comida" name="comida" value="Comida">
+            <label for="comida"> Comida</label>
+			
+			<br>
+			<br>
+			
+			<label for="comentarios">Comentarios:</label>
+			<textarea id="comentarios" name="comentarios" placeholder="Escriba aquí..." rows="4" cols="50"></textarea>
+			
+			<br>
+			<br>
+            <button type="submit" value="Submit">Enviar</button>
+            <button type="reset" value="Reset">Borrar</button>
+			
+		</form>
+		
+		<table>
+			<caption>Ingredientes</caption>
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Cantidad</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>cebollas</td>
+					<td>1kg</td>
+				</tr>
+				<tr>
+					<td>caldo de carne</td>
+					<td>1l</td>
+				</tr>
+				
+				<tr>
+					<td>mantequilla</td>
+					<td>100g</td>
+				</tr>
+				<tr>
+					<td>harina</td>
+					<td>1cucharada</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<ol>  
+          <li>Pelar y partir las cebollas en rodajas finas.</li>
+          <li>Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén transparentes sin dorarse.</li>
+          <li>Añadir la harina sin dejar de remover.</li>
+          <li>Ponerlo en una cazuela con el caldo, el tomillo y el laurel.</li>
+          <li>Dejar cocer a fuego lento durante unos 15 minutos.</li>
+          <li>Poner las rebanadas de pan encima, espolvorear el queso y gratinar al horno.</li>
+		</ol>
+	</main>
+	
+	<footer>
+		<p>MisRecetas 2022</p>
+	</footer>
+</body>
+</html>
